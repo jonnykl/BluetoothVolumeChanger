@@ -7,5 +7,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" />
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true"/>
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="53"/>
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Change bluetooth media volume even when no bluetooth device is connected"/>
+
+    </application>
+
 </manifest>
