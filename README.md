@@ -11,5 +11,10 @@ To test it execute following command (you can replace 5 with a volume of your ch
 am broadcast -a com.gmail.klamroth.jonathan.bluetoothvolumechanger.ACTION_CHANGE_BT_VOLUME --ei com.gmail.klamroth.jonathan.bluetoothvolumechanger.EXTRA_VOLUME 5
 ```
 
+To get the current bluetooth media volume execute the following command:
+```
+settings get system volume_music_bt_a2dp
+```
+
 # License
 This module is licensed under the terms of the MIT license.
